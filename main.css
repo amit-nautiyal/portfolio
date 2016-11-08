@@ -31,12 +31,12 @@ a image, input [type='image']{
 #gallery ul li {
 	box-shadow: 5px 5px 5px #666666;
     	display: inline-block;
-    	margin: 15px; 
+    	margin: 15px;
 }
 #gallery ul li:hover {
 	box-shadow: -5px -5px 5px #FF6;
     	display: inline-block;
-    	margin: 15px; 
+    	margin: 15px;
 }
 #gallery ul a:hover { color: #fff; }
 
@@ -107,7 +107,7 @@ p {
 	float: right;
 }
 .footer{
-	background-color:#fff; clear:both; border-top:1px outset #666666; padding-bottom:10px; margin-bottom:10px;
+	background: rgba(255, 255, 255, 0.5);  clear:both; border-top:1px outset #666666; padding-bottom:10px; margin-bottom:10px;
 }
 .footer ul{
 	margin:0px; padding:0px;  list-style:none; text-align:center;
@@ -140,13 +140,13 @@ p {
 .projectTxt{
 }
 .mainHeading{
-	font-size:16px; font-weight:bold; margin-left:10px; text-decoration:underline; height:30px; text-align:left;	
+	font-size:16px; font-weight:bold; margin-left:10px; text-decoration:underline; height:30px; text-align:left;
 }
 .mainframe{
-	max-width:1000px; box-shadow:0 0 27px #888888; 
+	max-width:1000px;
 }
 .header{
-	height:100px;background:#fff;
+	height:100px; background: rgba(255, 255, 255, 0.5);
 }
 .headerTop{
 	height:65px; text-align:left;
@@ -173,7 +173,7 @@ p {
 	height:35px;
 }
 .mainContainer{
-	background-color:#ffffff; 
+	background: rgba(255, 255, 255, 0.5);  
 	padding:20px;
 	clear:both;
 }
@@ -215,14 +215,14 @@ p {
 	padding:0;
 }
 .clearfix:before, .clearfix:after {
-  content: "\0020"; display: block; height: 0; visibility: hidden;	
-} 
+  content: "\0020"; display: block; height: 0; visibility: hidden;
+}
 
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 .perEduDiv:before, .perEduDiv:after {
-  content: "\0020"; display: block; height: 0; visibility: hidden;	
-} 
+  content: "\0020"; display: block; height: 0; visibility: hidden;
+}
 
 .perEduDiv:after { clear: both; }
 .perEduDiv { zoom: 1; }
@@ -236,25 +236,25 @@ body{
 	position:relative;
 }
 #movingTrialContainer{
-	position:relative; 
-	height:450px; 
+	position:relative;
+	height:450px;
 	width:960px;
 	overflow:hidden;
 }
-#dynamicImageLeft{	
+#dynamicImageLeft{
 	margin-left:0px;
-	width:275px; 
-	padding:0; 
+	width:275px;
+	padding:0;
 	text-align:left;
 	position:relative;
 	margin-top:-56px;
 	z-index:900;
 }
-#dynamicImageRight{	
+#dynamicImageRight{
 	display:none;
 	margin-left:695px;
-	width:275px; 
-	padding:0; 
+	width:275px;
+	padding:0;
 	text-align:left;
 	position:relative;
 	margin-top:-56px;
@@ -280,10 +280,10 @@ body{
 	top:90px;
 	left:300px;
 	z-index:500;
-	
+
 }
 #tourButtonBack{
-	display:none;	
+	display:none;
 }
 #companies{
 	background:url(progressBar.png) repeat-x 0 0;
@@ -305,7 +305,7 @@ body{
 	font-size:14px;
 	text-align:center;
 	background:url(rightBorder.gif) no-repeat right center;
-	color:#fff;	
+	color:#fff;
 	width:24.5%;
 }
 #progressBar div:nth-child(4){
@@ -399,8 +399,8 @@ body{
 	margin:0px 0px 10px 10px;
 }
 #recommendation li:before, #recommendation li:after {
-  content: "\0020"; display: block; height: 0; visibility: hidden;	
-} 
+  content: "\0020"; display: block; height: 0; visibility: hidden;
+}
 
 #recommendation li:after { clear: both; }
 #recommendation li { zoom: 1; }
@@ -409,7 +409,7 @@ body{
 #puzzle{
 	width:360px;
 	text-align:center;
-	float:right;	
+	float:right;
 }
 #puzzle ul{
 	padding::0px;
@@ -432,13 +432,13 @@ body{
 	width:100%;
 }
 #puzzle ul li span{
-	display: table-cell; 
-	vertical-align: middle; 
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
-	font-weight:bold;	
+	font-weight:bold;
 }
 #puzzle ul li.mover{
-	background-color:#fff;	
+	background-color:#fff;
 }
 #sampleImage{
 	float:left;
@@ -547,14 +547,14 @@ blockquote:before {
 	}
 	#mobileMenuDiv #mobileNav {
 		content: " ";
-    		display: table;  
+    		display: table;
 		width:100%;
 		padding:0px 0px 10px;
 		text-align:left;
 	}
 	#mobileNav li a{
 		padding:10px;
-		display:block;	
+		display:block;
 		background-color:#222;
 		color:#999; text-decoration:none;
 		text-align:left;
@@ -585,7 +585,7 @@ blockquote:before {
 		font-weight:normal;
 	}
 	.perEduDivLeft{
-		float:none; width:100%; text-align:left; font-weight:bold; 
+		float:none; width:100%; text-align:left; font-weight:bold;
 	}
 	.mainHeading{
 		margin-left:0;
@@ -602,12 +602,12 @@ blockquote:before {
 	#mobileGallery ul li {
 		box-shadow: 5px 5px 5px #666666;
 		display: inline-block;
-		margin: 15px; 
+		margin: 15px;
 	}
 	#mobileGallery ul li:hover {
 		box-shadow: -5px -5px 5px #FF6;
 		display: inline-block;
-		margin: 15px; 
+		margin: 15px;
 	}
 	.message_head cite {
 	    font-size: 14px;
